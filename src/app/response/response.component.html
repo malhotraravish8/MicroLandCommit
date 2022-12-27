@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="location">Home>My application>application>resource</div>
+    </div>
+    <div class="row">
+        <ul class="general-menu">
+            <li>contact</li>
+            <li>supporting document</li>
+        </ul>
+    </div>
+    <div class="row header-outer">
+        <div class="col-sm-3 header-menu">
+            <ul>
+              <li routerLink="/general">General</li>
+              <li routerLink="/basic">Basic</li>
+              <li routerLink="/response">Response</li>
+              <li routerLink="/ping">ping</li>
+            </ul>
+        </div>
+        <div class="col-sm-9 form-outer">
+            <form>
+                <div class="form-heading">Response</div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                      <label class="form-heading"> Internal Details</label> <br>
+                      <label for="Severity">Severity</label>
+                      <input type="text" class="form-control" id="inputSeverity" placeholder="Critical">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-heading"> Forwarding Details</label> <br>                       
+                            <label for="EscalationGroups"> Escalation Group (Snow)</label>
+                            <input type="text" class="form-control" id="inputEscalationGroups" placeholder="---">                       
+                      </div>
+                  </div>                
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="UMN">UMN</label>
+                            <input type="text" class="form-control" id="inputUMN" placeholder="LSMH-9PHQF5">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="UMN">Notofication Groups(XMatters)</label>
+                            <input type="text" class="form-control" id="inputNotificationGroups" placeholder="OnCall_EYCanvas">
+                          </div>
+                        </div>
+              </form>
+        </div>
+    </div>
+</div>

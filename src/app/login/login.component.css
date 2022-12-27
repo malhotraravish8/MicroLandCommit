@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height:100px;
+}
+.self-service{
+    padding:80px 0px;
+    background: #e9e8e8;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -khtml-box-sizing:border-box;
+}
+.service-heading{
+    font-size: 30px;
+    font-weight: 600;
+    font-family :sans-serif;
+    text-align: center;
+}
+.service-text{
+    text-align: center;
+    font-weight: 600;
+}
+.service-btn{
+    text-align: center;
+}
+.btn{
+    background-color: #000;
+    padding: 10px 70px;
+    border-radius: 0;
+    color:#fff;
+    margin-top: 13px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -khtml-box-sizing:border-box;
+}
+.service-portal{
+    margin: 50px 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -khtml-box-sizing:border-box;
+}
+.container{
+    padding: auto!important;
+    margin: auto!important;
+}
+.service-card{
+    margin: 5px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -khtml-box-sizing:border-box;
+    border-radius: 0;
+}
+.card-img-top{
+    min-height: 200px;
+    background-color: #e9e8e8;
+}

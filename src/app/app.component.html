@@ -1,0 +1,28 @@
+<nav class="navbar navbar-light bg-light border-bottom"(contextmenu)="onRightClick()">
+    <div class="container">
+      <a class="navbar-brand">
+        <img src="assets/Images/EY_logo.png" alt="" width="45" height="40" class="d-inline-block align-text-top p-1"style="border-right:0.5px solid lightgrey">
+        <h6 class="d-inline-block p-1">MONITORING SSP</h6></a>
+      <form class="d-flex m-auto">
+        <input type="text" class="form-control" placeholder="Search..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>     
+     </form>
+     <div class="searchIcon" *ngIf="AllowSearch">
+      <button type="button" (click)="OpenSerchBox()"><i class="fa fa-search"></i></button>
+     </div>
+    </div>
+  </nav>
+  <form class="popup" *ngIf="FormOuter">
+    <input *ngIf="searchBox" type="text" class="form-control" placeholder="Search..." name="search">
+    <button type="submit"><i *ngIf="searchBtn" class="fa fa-search"></i></button>
+    <span><i (click)="closeSerchBox()" *ngIf="CrossItem" class="fa fa-times "></i></span>     
+ </form>
+  <!-- <div *ngFor="let item of AllData; let i=index; let odd=odd" >
+    <span (click)="ClickEvent(item.id)" class="card p-2" [class.odd]="odd" *ngIf="i>=50;">
+      {{i+1}}. {{ item.title }}
+    </span>
+    </div>
+    <div *ngIf="DatabyId!=null">
+      <span>{{ DatabyId.title }}</span>
+    </div>  -->
+<router-outlet></router-outlet>

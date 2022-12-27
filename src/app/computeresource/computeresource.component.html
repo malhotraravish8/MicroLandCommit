@@ -1,0 +1,58 @@
+<div class="container"(contextmenu)="onRightClick()">
+    <div class="row">
+        <div class="location pt-4">Home > Americas Tax > Application TGIF > Application 01</div>
+    </div>
+    <div class="row mt-4 border-bottom pb-3">
+            <div class="col-sm-5 location-menu-heading">
+                <h4>Application 01</h4>
+            </div>
+            <div class="col-sm-7 location-menu-item">
+                <div class="form-button">
+                    <button id="btn">Edit</button>
+                    <button id="btn">View Notifications</button>
+                    <button id="btn">Support Documents</button>
+                    <button id="btn">View Details</button>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="capability py-4">Capabilities</div>
+    </div>
+    <div class="row">
+        <div class=" col-md-8 col-sm-12">
+            <button class="btn ResourcesBtn" routerLink="/monitoringResource">Monitoring Resources</button>
+            <button class="btn ResourcesBtn computeBtn" routerLink="/computeResource" >Compute Resources</button>
+        </div>
+        <div class="col-sm-4 text-end">
+            <button class="btn groupbtn" >Add Resources</button>
+        </div>
+    </div>
+    <div class="row py-5">
+        <table class="table table-striped ">
+            <thead>
+            <tr>
+                <th>Provision Service</th>
+                <th>Request Date</th>
+                <th>Last Modified</th>
+                <th>Change Request Number</th>
+                <th>Tagged Group</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GDC Provisioning</td>
+                <td>21 Dec 2022</td>
+                <td>27 Dec 2022</td>
+                <td>45643554</td>
+                <td>02</td>
+                <td><div class="form-button">
+                    <button id="btn" routerLink="/location">Edit</button>
+                    <button id="btn" routerLink="/location">View Details</button>
+                </div></td>
+            </tr>
+        </tbody>
+    </table> 
+    </div>
+</div>
+

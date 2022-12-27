@@ -1,0 +1,84 @@
+<div class="container"(contextmenu)="onRightClick()">
+    <div class="row">
+        <div class="location">Home > application > Computer Resource > Edit GCD Provisioning Services</div>
+    </div>
+    <div class="row mt-4">
+            <div class="col-6 location-menu-heading">
+                <p>Edit GCD Provisioning Services</p>
+            </div>
+            <div class="col-6 location-menu-item">
+                <ul>
+                    <li>contact</li>
+                    <li>supporting document</li>
+                </ul>
+            </div>
+    </div>
+    <div class="row header-outer">
+        <div class="col-sm-3 header-menu">
+            <ul>
+                <li routerLink="/location">Location</li>
+                <li>Application</li>
+                <li>VM Details</li>
+                <li>Data Drive</li>
+                <li routerLink="/description">Description</li>
+            </ul>
+        </div>
+        <div class="col-sm-9 form-outer">
+            <form>
+                <div class="form-heading">Location</div>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="BuildId">Build Id</label>
+                    <input type="text" class="form-control" id="inputBuildId" placeholder="O">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="OrderDataCenter">Order Data Center</label>
+                    <input type="text" class="form-control" id="inputOrderDataCenter" placeholder="Select one">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="MonitaringTitle">Change Request Number</label>
+                      <input type="text" class="form-control" id="inputMonitoringTitle" placeholder="GHFC 124242">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="ApplicationPortfolio">Application Portfolio</label>
+                      <input type="text" class="form-control" id="inputApplicationPortfolio" placeholder="Select one">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="AppOwnerName">App Owner Name</label>
+                      <input type="text" class="form-control" id="inputAppOwnerName" placeholder="Brian">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="EngagementCode">Engagement Code</label>
+                      <input type="text" class="form-control" id="EngagementCode" placeholder="Select One">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="AppOwnerSNGroup">App Owner SN Group</label>
+                      <input type="text" class="form-control" id="AppOwnerSNGroup" placeholder="Cloud Service">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="AppOwnerContac">App Owner Contact</label>
+                      <input type="text" class="form-control" id="AppOwnerContac" placeholder="Select One">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="TeamOwnerGID">Team Owner GID</label>
+                      <input type="text" class="form-control" id="TeamOwnerGID" placeholder="O ">
+                    </div>
+                  </div>
+                  <div class="form-group text-end">
+                    <button routerLink="/description" class="btn">Next</button>
+                    <!-- <button type="submit" class="btn">Diseble</button>
+                    <button type="submit" class="btn">Send a Request</button> -->
+                  </div>  
+              </form>
+        </div>
+    </div>
+</div>
+
